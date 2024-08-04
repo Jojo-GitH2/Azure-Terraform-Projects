@@ -1,0 +1,33 @@
+# Terraform .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .terraform directory
+.terraform/
+
+# .tfplan files
+*.tfplan
+
+# Crash log files
+crash.log
+
+# Ignore override files as they're usually used to override resources locally and don't need to be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Exclude all .tfvars files, which include sensitive information
+*.tfvars
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore macOS .DS_Store files
+.DS_Store
+
+# # Ignore .gitignore itself if it's in the root directory
+# /.gitignore
+
+.vscode
